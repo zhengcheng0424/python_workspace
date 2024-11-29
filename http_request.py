@@ -7,6 +7,6 @@ def fetch_url_data(url):
 
 
 if __name__ == '__main__':
-    url = 'http://httpbin.org'
+    url = 'https://api.example.com/data'
     data = fetch_url_data(url)
     print(data)
