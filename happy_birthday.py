@@ -2,13 +2,16 @@ import turtle as t
 import math as m
 import random as r
 
+
 def drawX(a, i):
     angle = m.radians(i)
     return a * m.cos(angle)
 
+
 def drawY(b, i):
     angle = m.radians(i)
     return b * m.sin(angle)
+
 
 t.bgcolor("#d3dae8")
 t.setup(width=900, height=600, startx=0, starty=0)
