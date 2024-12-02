@@ -1,0 +1,5 @@
+DEBUG:root:A debug message
+INFO:root:An info message
+WARNING:root:A warning message
+ERROR:root:An error message
+INFO:root:execution_time: 2.00
