@@ -1,3 +1,8 @@
+"""
+    1 基础函数
+"""
+
+
 if __name__ == '__main__':
     # 1.1 print
     print('Aloha python!')
