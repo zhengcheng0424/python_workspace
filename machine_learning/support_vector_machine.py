@@ -72,4 +72,3 @@ predictions = model.predict(x_test)
 print(f"accuracy_score is {accuracy_score(y_test, predictions) * 100:.2f} %")
 print(x_train, y_train)
 print(y_test, predictions)
-
