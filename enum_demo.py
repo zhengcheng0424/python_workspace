@@ -43,3 +43,6 @@ def is_weekend(day):
 
 print(is_weekend(Day.SATURDAY))  # 输出: True
 print(is_weekend(Day.WEDNESDAY))  # 输出: False
+# round()遵循银行家舍入算法: 四舍六入 偶数成双
+print(round(2.5))
+print(round(3.5))

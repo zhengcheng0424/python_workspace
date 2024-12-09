@@ -12,7 +12,7 @@ y = np.array([2, 4, 5, 6, 9, 11])
 # 划分训练集和测试集
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
-# 创建模型
+# 创建模型: Linear Regression
 model = LinearRegression()
 # 训练模型
 model.fit(x_train, y_train)

@@ -17,7 +17,7 @@ y = data.target
 # 划分训练集和测试集
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
-# 创建模型
+# 创建模型: Logistic Regression
 model = LogisticRegression()
 
 # 训练模型
