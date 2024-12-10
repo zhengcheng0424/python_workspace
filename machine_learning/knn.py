@@ -35,21 +35,21 @@ from sklearn.datasets import load_iris
 
 # 加载数据集
 data = load_iris()
-X = data.data
+x = data.data
 y = data.target
 
 # 划分训练集和测试集
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 # 创建模型: KNN K的值的选择非常重要
 k_value = 3
 model = KNeighborsClassifier(n_neighbors=k_value)
 
 # 训练模型
-model.fit(X_train, y_train)
+model.fit(x_train, y_train)
 
 # 预测
-predictions = model.predict(X_test)
+predictions = model.predict(x_test)
 
 # 模型评估
 accuracy = accuracy_score(y_test, predictions)

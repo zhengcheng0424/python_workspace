@@ -1,12 +1,12 @@
 """
     A decision tree is a powerful tool in data mining and machine learning.
-    What it is:
+    - What it is:
     It is a flowchart-like structure. Nodes and branches are the main components.
     The nodes represent decision - making points or attributes,
     and the branches show the possible outcomes or values of those attributes.
     For example, if you are building a decision tree to predict whether a customer will buy a product,
     a node might be "Customer's Age", and the branches could be "Under 30", "30 - 50", and "Over 50".
-    How it works:
+    - How it works:
     It starts from a root node. The root node is the most important decision factor.
     As you move down the tree through different levels of nodes and branches, more specific decisions are made.
     The process continues until a leaf node is reached. Leaf nodes are the endpoints that represent
